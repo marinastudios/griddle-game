@@ -23,9 +23,10 @@ jobs:
       
       - name: Build
         run: npm run build
-
+      
       - name: Deploy
         uses: denoland/deployctl@v1
         with:
           project: griddle
-          entrypoint: deno/main.ts
+          entrypoint: main.ts
+          root: deno
