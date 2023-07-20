@@ -1,3 +1,3 @@
 <script>
-    import '../app.poscss';
+    import '../app.postcss';
 </script>
